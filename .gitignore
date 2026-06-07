@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+tennis_env/
+.venv/
+
+# Large files
+*.mp4
+*.avi
+*.mov
+*.pkl
+*.pt
+*.pth
+models/
+*.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+output_*.mp4
+analysis.log
+*.csv
