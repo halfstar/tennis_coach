@@ -72,7 +72,7 @@ def read_video(path_video):
 
 def visualize_and_save(frames, ball_track, fps, output_path):
     height, width = frames[0].shape[:2]
-    out = cv2.VideoWriter(output_path, cv2.VideoWriter_fourcc(*'DIVX'), fps, (width, height))
+    out = cv2.VideoWriter(output_path, cv2.VideoWriter_fourcc(*'mp4v'), fps, (width, height))
 
     for i, frame in enumerate(tqdm(frames, desc='Writing Output')):
         img_res = frame.copy()
